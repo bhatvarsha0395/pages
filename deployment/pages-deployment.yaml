@@ -24,7 +24,7 @@ spec:
           hostPath:
             path: /alpha
       containers:
-        - image: bhatvarsha/pages:monitor
+        - image: bhatvarsha/pages:distributed
           imagePullPolicy: Always
           name: pages
           ports:
